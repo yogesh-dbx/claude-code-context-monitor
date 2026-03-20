@@ -138,6 +138,3 @@ rm ~/.claude/hooks/context-monitor.sh
 
 Then remove the `statusLine`, `hooks`, and `env.CLAUDE_AUTOCOMPACT_PCT_OVERRIDE` keys from `~/.claude/settings.json`.
 
-## License
-
-MIT

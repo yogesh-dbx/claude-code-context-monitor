@@ -10,7 +10,7 @@ A lightweight status line and warning system that tracks your Claude Code contex
 |-----------|---------|
 | **statusline.sh** | Displays model, git branch, context %, session cost, and lines changed at the bottom of your terminal |
 | **context-monitor.sh** | PostToolUse hook that warns you once at 60% and once at 80% before auto-compaction kicks in |
-| **settings.json** | Wires everything together + sets auto-compaction threshold to 80% |
+| **settings.example.json** | Wires everything together + sets auto-compaction threshold to 80% |
 
 ### How the pieces connect
 
@@ -53,7 +53,7 @@ bash install.sh
 
 1. Copy `statusline.sh` → `~/.claude/statusline.sh`
 2. Copy `hooks/context-monitor.sh` → `~/.claude/hooks/context-monitor.sh`
-3. Merge `settings.json` into your `~/.claude/settings.json`
+3. Merge `settings.example.json` into your `~/.claude/settings.json`
 4. `chmod +x ~/.claude/statusline.sh ~/.claude/hooks/context-monitor.sh`
 5. Restart Claude Code
 

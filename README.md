@@ -2,6 +2,8 @@
 
 A lightweight status line and warning system that tracks your Claude Code context window usage in real time.
 
+![Status Line Example](assets/statusline-example.png)
+
 ## What It Does
 
 | Component | Purpose |

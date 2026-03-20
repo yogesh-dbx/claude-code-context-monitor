@@ -38,13 +38,13 @@ Claude Code (provides context % via JSON)
 ### Option A: One-liner
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/yogesh-singh_data/claude-code-context-monitor/main/install.sh)
+bash <(curl -sL https://raw.githubusercontent.com/yogesh-dbx/claude-code-context-monitor/main/install.sh)
 ```
 
 ### Option B: Manual
 
 ```bash
-git clone https://github.com/yogesh-singh_data/claude-code-context-monitor.git
+git clone https://github.com/yogesh-dbx/claude-code-context-monitor.git
 cd claude-code-context-monitor
 bash install.sh
 ```
